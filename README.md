@@ -10,3 +10,6 @@ $info - will return an embed with information about JumpTask<br>
 $roadmap - returns the JumpTask roadmap and plans for the future
 
 There will be more commands coming in the future since I'm learning new things about the API every day. Stay tuned!
+
+Contact:<br>
+[Twitter](https://twitter.com/341jasper) - Discord: clout#4108 - [Telegram](https://t.me/rcntly)
