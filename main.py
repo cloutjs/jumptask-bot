@@ -35,7 +35,7 @@ async def on_message(message):
 
   if message.content.startswith('$jmpt'):
       price = requests.get("https://api.jumptask.io/currency/").json()["data"]["usd"]
-      price = price.split(".")
+      price = float(price)
       headers = {
           "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
       }
@@ -44,7 +44,7 @@ async def on_message(message):
       page = soup.find("div", {"class":'mr-3'}).getText()
       page = page.split("a")[0]
       embed = discord.Embed(title="JumpToken Stats")
-      embed.add_field(name="Price", value="$" + price[0] + "." + price[1][:3])
+      embed.add_field(name="Price", value="$" + str(round(price, 3)))
       embed.add_field(name="Holders", value=page.strip())
       await message.channel.send(embed=embed)
   
