@@ -12,4 +12,4 @@ $roadmap - returns the JumpTask roadmap and plans for the future
 There will be more commands coming in the future since I'm learning new things about the API every day. Stay tuned!
 
 Contact:<br>
-[Twitter](https://twitter.com/341jasper) - [Telegram](https://t.me/rcntly) - Discord: clout#4108
+[Twitter](https://twitter.com/341jasper) - [Telegram](https://t.me/rcntly) - [Discord](https://discord.com/users/818928136825733170)
